@@ -3,6 +3,7 @@ import HeroSection from "./components/HeroSection";
 import Navbar from "./components/Navbar";
 import AboutSection from "./components/AboutSection";
 import ProjectsSection from "./components/ProjectSection";
+import BlogSection from "./components/BlogSection";
 import EmailSection from "./components/EmailSection";
 
 export default function Home() {
@@ -10,9 +11,10 @@ export default function Home() {
     <main className="flex min-h-screen flex-col bg-black">
       <Navbar/>
       <div className="container mt-24 mx-auto px-8 py-8">
-        <HeroSection></HeroSection> 
+        <HeroSection></HeroSection>
         <AboutSection></AboutSection>
         <ProjectsSection></ProjectsSection>
+        <BlogSection></BlogSection>
         <EmailSection> </EmailSection>
       </div>
     </main>
