@@ -69,7 +69,7 @@ const HeroSection = () => {
           <div className='rounded-full'>
             <Image
               src="/images/icon.png"
-              alt='icon'
+              alt="Profile picture of Larry128"
               className='rounded-full'
               width={500}
               height={500}
