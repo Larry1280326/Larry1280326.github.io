@@ -1,11 +1,9 @@
 "use client";
-import React, { useState } from 'react';
+import React from 'react';
 import Image from "next/image";
 import { TypeAnimation } from 'react-type-animation';
 
 const HeroSection = () => {
-  const [toastMessage, setToastMessage] = useState("");
-
   const scrollToAbout = () => {
     const aboutSection = document.getElementById('about');
     if (aboutSection) {
@@ -13,9 +11,11 @@ const HeroSection = () => {
     }
   };
 
-  const handleBlogClick = () => {
-    setToastMessage("The blog is currently under preparation.");
-    setTimeout(() => setToastMessage(""), 3000); // Clear message after 3 seconds
+  const scrollToBlog = () => {
+    const blogSection = document.getElementById('blog');
+    if (blogSection) {
+      blogSection.scrollIntoView({ behavior: 'smooth' });
+    }
   };
 
   return (
@@ -46,7 +46,7 @@ const HeroSection = () => {
           </p>
           <div>
             <button
-              className='px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 bg-white hover:bg-slate-500 text-white'
+              className='px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 hover:opacity-80 text-white'
               onClick={scrollToAbout}
             >
               About Me
@@ -54,16 +54,11 @@ const HeroSection = () => {
 
             <button
               className='px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-transparent hover:bg-slate-800 text-white border border-white mt-3'
-              onClick={handleBlogClick}
+              onClick={scrollToBlog}
             >
               Blog
             </button>
           </div>
-          {toastMessage && (
-            <div className="mt-4 p-2 bg-gray-800 text-white rounded">
-              {toastMessage}
-            </div>
-          )}
         </div>
         <div className='col-span-5 flex items-center justify-center mt-4 lg:mt-0'>
           <div className='rounded-full'>
