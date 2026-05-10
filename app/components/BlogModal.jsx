@@ -35,7 +35,7 @@ const BlogModal = ({ blog, photos, onClose }) => {
   };
 
   return (
-    <div className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-95">
+    <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/95">
       {/* Close button */}
       <button
         onClick={onClose}
@@ -59,7 +59,7 @@ const BlogModal = ({ blog, photos, onClose }) => {
           {/* Previous button */}
           <button
             onClick={prevImage}
-            className="absolute left-4 z-10 p-2 rounded-full bg-black bg-opacity-50 text-white hover:bg-opacity-70 transition-all"
+            className="absolute left-4 z-10 p-2 rounded-full bg-black/50 text-white hover:bg-black/70 transition-all"
           >
             <ChevronLeftIcon className="h-8 w-8" />
           </button>
@@ -77,7 +77,7 @@ const BlogModal = ({ blog, photos, onClose }) => {
           {/* Next button */}
           <button
             onClick={nextImage}
-            className="absolute right-4 z-10 p-2 rounded-full bg-black bg-opacity-50 text-white hover:bg-opacity-70 transition-all"
+            className="absolute right-4 z-10 p-2 rounded-full bg-black/50 text-white hover:bg-black/70 transition-all"
           >
             <ChevronRightIcon className="h-8 w-8" />
           </button>

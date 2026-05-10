@@ -13,7 +13,7 @@ const BlogCard = ({ imgUrl, title, description, location, date, onClick }) => {
           alt={title}
           className="w-full h-full object-cover"
         />
-        <div className="absolute inset-0 bg-black bg-opacity-0 hover:bg-opacity-30 transition-all duration-300 flex items-center justify-center">
+        <div className="absolute inset-0 bg-black/0 hover:bg-black/30 transition-all duration-300 flex items-center justify-center">
           <span className="text-white opacity-0 hover:opacity-100 font-semibold text-lg">Click to view all photos</span>
         </div>
       </div>

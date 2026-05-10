@@ -69,7 +69,6 @@ const AboutSection = () => {
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
           <p className="text-base lg:text-lg">
-            I am a <a href="https://hkust.edu.hk">HKUST</a> student. 
           </p>
           <div className="flex flex-row justify-start mt-8">
             <TabButton
