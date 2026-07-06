@@ -41,6 +41,15 @@ const blogData = [
     description: "A memorable trip to Kaohsiung exploring the vibrant harbor city, modern architecture, and cultural sites",
     image: "/images/blog/kaohsiung/IMG_7389.png",
   },
+  {
+    id: "osaka",
+    title: "Osaka 🇯🇵",
+    location: "Japan",
+    date: "2026",
+    tag: ["All", "Travel"],
+    description: "A memorable trip to Osaka & the Kansai region exploring vibrant streets, ancient temples, and exciting day trips to Kyoto and Nara",
+    image: "/images/blog/osaka/IMG_0832.jpeg",
+  }
 ];
 
 const photosData = {
@@ -98,6 +107,26 @@ const photosData = {
     { src: "/images/blog/kaohsiung/IMG_7511.png", title: "City Park", description: "Relaxing in one of Kaohsiung's beautiful urban parks" },
     { src: "/images/blog/kaohsiung/IMG_7517.png", title: "Memorable Moments", description: "Capturing special moments during the Kaohsiung adventure" },
   ],
+  osaka: [
+    { src: "/images/blog/osaka/IMG_0832.jpeg", title: "Arriving at Kansai Airport", description: "Touchdown at Kansai International Airport, starting the Kansai adventure" },
+    { src: "/images/blog/osaka/IMG_0853.jpeg", title: "Nipponbashi Bridge", description: "Walking across the iconic Nipponbashi Bridge in the heart of Dotonbori" },
+    { src: "/images/blog/osaka/IMG_0859.jpeg", title: "Ebisu Bridge & Dotonbori", description: "The vibrant Dotonbori canal with its famous neon signs and bustling atmosphere" },
+    { src: "/images/blog/osaka/IMG_0867.jpeg", title: "Tonbori River Walk", description: "Strolling along the Tonbori River Walk enjoying the evening city lights" },
+    { src: "/images/blog/osaka/IMG_0956.jpeg", title: "Fushimi Inari Shrine", description: "Exploring the iconic vermilion torii gates at Fushimi Inari in Kyoto" },
+    { src: "/images/blog/osaka/IMG_1030.jpeg", title: "Kiyomizu-dera", description: "Visiting the historic Kiyomizu-dera temple in the Higashiyama district of Kyoto" },
+    { src: "/images/blog/osaka/IMG_1119.jpeg", title: "Sakurajima Area", description: "Taking in the waterfront views near the Sakurajima district of Osaka" },
+    { src: "/images/blog/osaka/IMG_1134.jpeg", title: "Hogwarts at USJ", description: "Entering the magical world of Harry Potter at Universal Studios Japan" },
+    { src: "/images/blog/osaka/IMG_1246.jpeg", title: "Hogsmeade Village", description: "Wandering through the snowy streets of Hogsmeade at Universal Studios Japan" },
+    { src: "/images/blog/osaka/IMG_1354.jpeg", title: "Nara Park", description: "Encountering the friendly deer roaming freely around Nara Park near Todaiji Temple" },
+    { src: "/images/blog/osaka/IMG_1434.jpeg", title: "Daikokucho Streets", description: "Exploring the lively streets and local vibes of the Daikokucho and Namba area" },
+    { src: "/images/blog/osaka/IMG_1467.jpeg", title: "Tsutenkaku Tower", description: "The iconic Tsutenkaku Tower standing tall in the retro Shinsekai district" },
+    { src: "/images/blog/osaka/IMG_1493.jpeg", title: "Shinsekai Market", description: "Wandering through the colorful Shinsekai Market beneath the Tsutenkaku Tower" },
+    { src: "/images/blog/osaka/IMG_1501.jpeg", title: "Shinsekai Streets", description: "Soaking in the nostalgic Showa-era atmosphere of Shinsekai" },
+    { src: "/images/blog/osaka/IMG_1521.jpeg", title: "Tsutenkaku South", description: "Another angle of the Tsutenkaku Tower from the bustling south street" },
+    { src: "/images/blog/osaka/IMG_1555.jpeg", title: "Shitennoji Temple", description: "Visiting Shitennoji, one of Japan's oldest Buddhist temples in the Tennoji district" },
+    { src: "/images/blog/osaka/IMG_1559.jpeg", title: "Rinku Town", description: "A final glimpse of the Kansai coastline at Rinku Town before heading to the airport" },
+    { src: "/images/blog/osaka/IMG_1578.jpeg", title: "Farewell Kansai", description: "Wrapping up an unforgettable trip through Osaka, Kyoto, and Nara at Kansai Airport" },
+]
 };
 
 const BlogSection = () => {
